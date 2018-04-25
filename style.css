@@ -8,6 +8,7 @@ body {
     align-items: center;
     font-family: 'Avenir', 'Lato', sans-serif;
     overflow: scroll;
+    background-color: #ededed;
 
 }
 
@@ -133,21 +134,23 @@ input[type=text] {
 }
 
 header {
-    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
     width:100%;
   height:100px;
   background:white;
   position:fixed;
+    background-color: lightgrey;
 }
 
 footer {
     padding: 0 6em 0em 6em;
-    box-shadow: 0 -2px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 -2px 5px rgba(57, 63, 72, 0.5);
     width:100%;
   height:45px;
   background:white;
   position:fixed;
     bottom: 0;
+    background-color: lightgrey;
 }
 .social-networks {
     display: grid;
@@ -189,6 +192,22 @@ main ul li {
     background: linear-gradient(to right, #233d80 0%,#45a28c 100%);
 }
 
+.jazz-button {
+    background: linear-gradient(to right, #233d80 0%,#d74061 70%,#d74061 100%);
+}
+
+.alternative-button {
+    background: linear-gradient(to right, #233d80 0%,#6d5b97 70%,#6d5b97 100%);
+}
+
+.rock-button {
+    background: linear-gradient(to right, #233d80 0%,#548dd4 70%,#548dd4 100%);
+}
+
+.folk-button {
+    background: linear-gradient(to right, #233d80 0%,#45a28c 100%);
+}
+
 main ul li a {
     color: #FFF;
     width: 100%;
@@ -204,7 +223,34 @@ main ul {
     width: 90%;
 }
 
+.localnav li {
+    margin-bottom: 1px;
+}
 
+.sageata {
+    width: .8em;
+}
 
+.genre-nav {
+    padding: .8em;
+    padding-left: 1.2em;
+    margin-bottom: 1px;
+    font-size: 18px;
+}
+
+.genre-nav a img {
+    float: right;
+    margin-right: 1em;
+}
+
+.genre-nav a {
+    padding-right: 164px;
+}
+
+h2.title {
+    font-size: 20px;
+    margin: 7em 1em 0;
+    font-weight: 500;
+}
 
 
