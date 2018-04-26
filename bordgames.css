@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    align-items: center;
+    font-family: 'Avenir', 'Lato', sans-serif;
+    overflow: scroll;
+    background-color: #ededed;
+
+}
+
+
+.huset-logo {
+    width: 7em;
+    position: absolute;
+    right: .5em;
+    top: .7em;
+}
+
+.profile {
+    width: 100%;
+}
+.friends-list {
+    width: 100%;
+    padding-left: .5em;
+}
+
+
+.burger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+    top: 5px;
+    left: 9px;
+}
+
+.main-nav {
+   overflow: hidden;
+    transition: all .15s ease;
+    font-family: Eczar, sans-serif;
+    font-size: 21px;
+    outline-color: #FFFFFF;
+    width: 0;
+    height: 800px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border: solid 1px grey;
+    background-color: #FFF;
+
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav .closebtn {
+    font-size: 36px;
+    position: absolute;
+    left: 87%;
+    color: #FFF;
+}
+
+.open {
+    width: 60%;
+}
+
+.close {
+    width: 0;
+}
+
+.open-mq {
+    width: 60%;
+}
+
+.main-nav ul a {
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    font-family: 'Avenir', 'Lato', sans-serif;
+
+}
+
+.main-nav ul {
+    padding: 0 0 .5em 0 ;
+    margin: 0;
+}
+
+.main-nav ul li {
+    border-bottom: solid 1px #818181;
+    padding: .5em;
+}
+
+.main-nav ul li.subli {
+    padding-left: 1.5em;
+}
+
+.search-bar {
+    background-color: #EDEDED;
+    padding: .2em;
+    border-radius: 10px;
+    width: 80%;
+    height: 36px;
+    position: fixed;
+    top: 3.3em;
+    left: 2em;
+
+}
+
+input[type=text] {
+  float: left;
+  padding: 6px;
+  border: none;
+  font-size: 14px;
+    width: 87%;
+    background-color: #EDEDED;
+
+}
+
+.search-icon {
+    float: left;
+    width: 30px;
+}
+
+header {
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+    width:100%;
+  height:100px;
+  background:white;
+  position:fixed;
+    background-color: lightgrey;
+}
+
+footer {
+    padding: 0 6em 0em 6em;
+    box-shadow: 0 -2px 5px rgba(57, 63, 72, 0.5);
+    width:100%;
+  height:45px;
+  background:white;
+  position:fixed;
+    bottom: 0;
+    background-color: lightgrey;
+}
+.social-networks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.social-icons {
+    width: 7%;
+   position: fixed;
+    bottom: .5em;
+    margin-left: 10px;
+}
+
+img.title {
+    width: 70%;
+    margin-top: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.music-button {
+    background: linear-gradient(to right, #233d80 0%,#d74061 70%,#d74061 100%);
+}
+
+.cinema-button {
+   background: linear-gradient(to right, #2b3e81 0%,#2989d8 50%,#7db9e8 100%);
+}
+
+.board-games-button {
+    background: linear-gradient(to right, #233d80 0%,#45a28c 100%);
+}
+
+
+
+
+
