@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+<link rel="stylesheet" href="styleLarisa.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+</head>
+
+<body>
+   <header> <img src="assets/huset-logo.png" alt="Huset logo" class="huset-logo">
+     <div class="search-bar"><img src="assets/search-icon.png" alt="" class="search-icon"><input type="text" placeholder="Search Events"></div>
+      <span onclick="openNav()" class="burger-menu">&#9776;</span>
+        <nav id="mainnav" class="main-nav"> <div class="x-group"><a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+           <img class="profile" src="assets/profile.png" alt="profile-picture"/>
+            <ul>
+                <li><a href="index.html"><b>Events</b></a></li>
+                <li class="subli"><a href="#">Music</a></li>
+                <li class="subli"><a href="#">Cinema & Theatre</a></li>
+                <li class="subli"><a href="#">Board Games</a></li>
+                <li><a href="https://huset-kbh.dk/volunteering/?lang=en"><b>Volunteering</b></a></li>
+                <li><a href="https://huset-kbh.dk/udlejning-en/?lang=en"><b>Leasing</b></a>
+                <li><a href="#"><b>Contact</b></a></li>
+            </ul>
+            <img src="assets/friends-group.png" alt="friends-list" class="friends-list">
+            </div>
+        </nav>
+    </header>
+    <div class="title">
+<h1>Movies</h1>
+</div>
+
+
+<section id="movieList">
+    <template id="mtemp">
+    <article class="movie">
+        <h2>Name of the movie</h2>
+    <div class="box">
+        <img class="movieImg" src="" alt="">
+        </div>
+
+
+   <div>
+
+       <h4 class="date">Date </h4></div>
+     <h4 class="time">Time</h4>
+
+    </article>
+
+ </template>
+
+    </section>
+
+
+   <script src="scriptLarisa.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
