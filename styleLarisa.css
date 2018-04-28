@@ -214,28 +214,69 @@ main ul {
     text-align: center;
     font-family: "Avenir", sans-serif;
 
+
 }
 .movie{
- border: 1px solid black;
+    border: 1px solid black;
     position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: dden;
 }
 .movie h2{
     position: absolute;
     color: white;
-padding: 20px;
+    padding: 10px;
+    font-family: "avenir", sans-serif;
+    font-size: 25px;
+    z-index: 9;
+
 
 }
 
-.box{
- border: 2px solid red;
+.box .holder{
     width: 100%;
-    height: 200px;
-}
-.box img{
-    width: 100%;
-    height: 200px;
     overflow: hidden;
+    height: 150px;
+    position: absolute;
+}
+.holder img {
+    display: block;
+    width: 100%;
+}
+.gradient{
+    background-color: rgba(0,0,0,0.4);
+     width: 100%;
+    height: 151px;
+    position: absolute;
+    z-index: 1;
+}
+.date,.time{
 
+    margin: auto;
+    color: white;
+    z-index: 9999;
+    margin-left: 25px;
+    font-size: 17px;
+
+}
+
+.date_time{
+    position: absolute;
+    display: flex;
+    color: white;
+    z-index:9;
+    margin-top:29%;
+
+
+}
+.timeicon{
+    width: 20px;
+    position: absolute;
+
+}
+.dateContainer, .timeContainer{
+    margin-left: 20px;
 
 }
 
@@ -244,4 +285,49 @@ padding: 20px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow{
+    position: absolute;
+    z-index: 9;
+    width: 30px;
+    margin-left: 88%;
+    margin-top: 3%;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.icons{
+       width: 7%;
+   position: fixed;
+    bottom: .5em;
+    margin: auto;
+
+}
 
