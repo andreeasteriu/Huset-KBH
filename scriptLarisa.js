@@ -1,9 +1,10 @@
 
 function fetchMovies(){
-  fetch("http://larisadom.com/wordpress/wp-json/wp/v2/events?categories=9&per_page=100&order=asc")
+  fetch("http://larisadom.com/wordpress/wp-json/wp/v2/events?categories=9&order=asc&per_page=20")
     .then(e => e.json())
     .then(showMovies)
 }
+
 
 function showMovies(data){
     console.log(data);
