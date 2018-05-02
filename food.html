@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huset KBH</title>
+
     <link rel="stylesheet" href="bordgames.css">
+
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -13,6 +17,29 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+
+    <style>
+        h4 {
+            margin-top: 100px;
+        }
+
+        .foodArticle {
+            border: 1px solid #000;
+            padding: 1.5em;
+            position: relative;
+        }
+
+        .foodimg {
+            width: 100vw;
+            height: 50vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+    </style>
+
 </head>
 
 
@@ -37,25 +64,21 @@
     </nav>
 </header>
 
+
 <body>
-    <h4 class="firstpost">Bordgames event</h4>
-    <section id="gameslist">
-        <template id="gametm">
-         <article class="bordgame">
-            <h1>Title</h1>
-            <div class="event">
-            <img class="pic" src="" alt="">
 
-            <div class="date">
-             <img class="calendar" src="images/Calendar-Date-04.png"><span class="day"></span><span class="mouth"></span><span class="year"></span></div>
+    <h4 class="firstfood">Menu</h4>
 
-             <div class="time">
-                 <img class="clock" src="images/Clock-02.png"><span class="timenumb"></span>
-             </div>
-        </div>
-         <p><a  class="readmore" href="subpage.html?id=1">Read more</a></p>
+    <section id="foodlist">
+        <template id="foodtm">
+         <article class="foodArticle">
+            <h1 class="foodName">Name of food</h1>
+            <div class="fodie">
+            <img class="foodimg" src="" alt="">
+            </div>
+
          </article>
-        </template>
+       </template>
     </section>
 
 
@@ -64,8 +87,7 @@
 <footer>
     <div class="down">
 
-        <a href="#">
-            <svg class="prof"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.28 106.48"><defs><style>.cls-1{fill:none;stroke:#f7f2f7;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_3" data-name="Layer 3"><circle class="cls-1" cx="44.3" cy="33.51" r="31.01"/><path class="cls-1" d="M2.5,104H85.18S91.41,73.83,64,57.87c0,0-19.11,9.76-39.05,0C24.93,57.87,2.5,71.17,2.5,104Z"/></g></g></svg> </a>
+        <a href="#"><img src="assets/little-men.png" class="prof" /></a>
 
         <a href="bordgames.html">
             <svg class="games_events active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.71 138.09"><defs></defs><title>Asset 4</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_3" data-name="Layer 3"><polygon class="cls-1" points="2.5 55.94 2.5 112.51 49.26 135.3 95.62 112.12 95.62 55.94 49.06 79.51 2.5 55.94"/><path class="cls-1" d="M49.06,131.77c-.2-3.54,0-52.26,0-52.26"/><path class="cls-1" d="M6.43,54C10,52.4,49.06,32.36,49.06,32.36L95.62,55.94"/><ellipse class="cls-1" cx="14.38" cy="75.72" rx="6.09" ry="7.22" transform="translate(-35.93 17.33) rotate(-30)"/><ellipse class="cls-1" cx="34.34" cy="104.58" rx="5.99" ry="8.02" transform="translate(-53.44 38.16) rotate(-34.71)"/><ellipse class="cls-1" cx="13.67" cy="104.58" rx="5.24" ry="7.42" transform="translate(-57.12 26.39) rotate(-34.71)"/><ellipse class="cls-1" cx="75.19" cy="109.05" rx="7.53" ry="4.89" transform="translate(-53.22 141.56) rotate(-69.62)"/><ellipse class="cls-1" cx="65.36" cy="87.15" rx="7.74" ry="6.18" transform="matrix(0.41, -0.91, 0.91, 0.41, -40.97, 110.83)"/><ellipse class="cls-1" cx="86.21" cy="75.72" rx="7.59" ry="5.3" transform="translate(-24.94 104.17) rotate(-55.65)"/><ellipse class="cls-1" cx="49.59" cy="57.14" rx="8" ry="5.53"/><polyline class="cls-1" points="44.15 27.25 57.59 2.5 112.51 2.5 135.69 49.65 99.55 49.65"/><path class="cls-1" d="M75.19,36.68S63.72,12.75,60.65,7.61"/><path class="cls-1" d="M135.7,49.65c-1.57,4.71-22,47-22,47H105"/><ellipse class="cls-1" cx="81.86" cy="22.15" rx="6.32" ry="7.88" transform="translate(-1.08 39.84) rotate(-27.18)"/><ellipse class="cls-1" cx="112.86" cy="37.54" rx="5.3" ry="6.88" transform="translate(38.37 130.26) rotate(-69.62)"/><ellipse class="cls-1" cx="118" cy="60.76" rx="7.61" ry="5.6" transform="matrix(0.78, -0.63, 0.63, 0.78, -11.88, 88.09)"/></g></g></svg></a>
@@ -79,13 +101,12 @@
 
     </div>
 
+
 </footer>
 
 
-
-
 <script src="script.js"></script>
+<script src="food.js"></script>
 
-<script src="bordgames.js"></script>
 
 </html>
