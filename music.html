@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 </head>
@@ -31,16 +32,38 @@
     </header>
  <main onclick="closeNav()">
 
-<template>
-   <article class="post">
-       <div class="post-image">
-
-       </div>
-
-   </article>
 
 
-</template>
+<div class="title">
+<h1>Jazz</h1>
+</div>
+
+
+<section id="eventsList">
+    <template id="template">
+    <article class="music-post">
+       <div class="event">
+
+           <a><h2>Name of the movie</h2>
+           <img src="assets/sageata.png" class="read-more" alt="Read more"/></a>
+
+        <img class="img-post" src="" alt="">
+
+
+
+
+
+
+       <h4 class="date"></h4>
+     <h4 class="time"></h4>
+</div>
+    </article>
+
+ </template>
+
+    </section>
+
+
 
 
 
@@ -70,5 +93,6 @@
    </footer>
 
     <script src="script.js"></script>
+    <script src="music.js"></script>
      </body>
 </html>
