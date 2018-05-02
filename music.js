@@ -15,8 +15,10 @@ function showEvents(anEvent){
     let clone = template.cloneNode(true);
 
  clone.querySelector("h2").textContent = anEvent.title.rendered;
- clone.querySelector(".date").textContent = "Date " + anEvent.acf.date;
- clone.querySelector(".time").textContent = "Time " + anEvent.acf.time;
+ clone.querySelector(".day").textContent = anEvent.acf.date.substring(0,2) + "/";
+  clone.querySelector(".month").textContent = anEvent.acf.date.substring(2,4) + "/";
+ clone.querySelector(".year").textContent = anEvent.acf.date.substring(4,8);
+ clone.querySelector(".clock").textContent = anEvent.acf.time;
     clone.querySelector(".img-post").src = anEvent.acf.image.sizes.medium;
 
 

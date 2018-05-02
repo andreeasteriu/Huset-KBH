@@ -52,6 +52,11 @@ h1  {
     font-size: 12px;
 }
 
+.date img {
+    width: 5%;
+    margin-right: 3px;
+}
+
 .time {
      position: absolute;
     bottom: 0;
@@ -60,11 +65,15 @@ h1  {
     font-weight: 500;
     font-size: 12px;
 }
+.time img {
+    width: 5%;
+    margin-right: 5px;
+}
 
 .read-more {
     width: 8%;
     position: absolute;
-    right: 5.4em;
+    right: 10em;
     bottom: 1em;
 }
 
