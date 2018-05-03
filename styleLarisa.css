@@ -2,15 +2,17 @@
     box-sizing: border-box;
 }
 
-body {
+
+ body {
     margin: 0;
     display: grid;
     align-items: center;
     font-family: 'Avenir', 'Lato', sans-serif;
     overflow: scroll;
-    background-color: #FFF;
+    background-color: #ededed;
 
 }
+
 
 
 .huset-logo {
@@ -133,13 +135,16 @@ input[type=text] {
     width: 30px;
 }
 
-header {
-    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+ header {
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
     width:100%;
-  height:100px;
+  height:92px;
   background:white;
   position:fixed;
-    z-index: 999;
+    z-index: 1;
+    background-color: lightgrey;
+
 }
 
 footer {
@@ -351,12 +356,12 @@ main ul {
 
 }
 .backbutton, .backbutton2{
-    margin-top: 30%;
+    margin-top: 31%;
     width: 35px;
     border: none;
-    color: transparent;
-    background-color: white;
+    background-color: #ededed;
     z-index: 3;
+    margin-left: 5px;
 
 }
 .backbutton2{
@@ -504,4 +509,14 @@ body{
     text-align: center;
 }
 
+input[type=text].yourname{
+  float: left;
+  padding: 6px;
+  border: none;
+  font-size: 14px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-left: 10px
 
+}
