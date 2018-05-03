@@ -111,7 +111,7 @@ body {
     padding: .2em;
     border-radius: 10px;
     width: 80%;
-    height: 32px;
+    height: 36px;
     position: fixed;
     top: 3.3em;
     left: 2em;
@@ -130,128 +130,130 @@ input[type=text] {
 
 .search-icon {
     float: left;
-    width: 25px;
+    width: 30px;
 }
 
 header {
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
     width:100%;
-  height:92px;
+  height:100px;
   background:white;
   position:fixed;
-    z-index: 1;
     background-color: lightgrey;
+    z-index: 1;
 }
 
 footer {
-    padding: 0 1em 0em 3em;
-    box-shadow: 0 -2px 5px rgba(57, 63, 72, 0.5);
-    width:100%;
-  height:2.6em;
-  background:white;
+
+   /* box-shadow: 0 -2px 5px rgba(57, 63, 72, 0.5); */
+  width:100vw;
+  height:15vw;
   position:fixed;
     bottom: 0;
-    background-color: lightgrey;
+    background: linear-gradient(-90deg, rgb(33, 231, 182), rgb(40, 76, 132));
 }
-.social-networks {
+
+}
+.down {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
 }
 
-.social-icons {
-    width: 7%;
-   position: fixed;
-    bottom: .5em;
-    margin-left: ;
+.prof {
+    width: 25px;
+    position: fixed;
+    bottom: 0.6em;
+    margin-left: 20px;
+
 }
 
-img.title {
-    width: 70%;
-    margin-top: 10em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.games_events{
+    width: 30px;
+    bottom: 0.6em;
+    position: fixed;
+    margin-left: 100px;
+
 }
+.cls-1{
+    fill:none;
+    stroke:#fff;
+    stroke-miterlimit:10;
+    stroke-width:5px;
+}
+.active {
+    filter: drop-shadow( 2px 2px 6px white );
+}
+.active .cls-1{
+
+
+}
+.food{
+    width: 30px;
+    bottom: 0.6em;
+    position: fixed;
+    margin-left: 200px;
+}
+
+
+.listgames{
+    width: 30px;
+    bottom: 0.6em;
+    position: fixed;
+    margin-left: 300px;
+}
+
 
 a {
     text-decoration: none;
 }
 
-main ul li {
-    padding: .2em 0;
+/* LIST OF EVENTS*/
+
+.firstpost{
+    margin-top: 150px;
 }
 
-.music-button {
-    background: linear-gradient(to right, #233d80 0%,#d74061 70%,#d74061 100%);
+.bordgame{
+    border : 1px solid #000;
+    position: relative;
 }
 
-.cinema-button {
-   background: linear-gradient(to right, #2b3e81 0%,#2989d8 50%,#7db9e8 100%);
+/*.bordgame .color{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+} */
+
+.pic{
+    width: 100vw;
+    height: 50vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.descript{
+    width: 100vw;
 }
 
-.board-games-button {
-    background: linear-gradient(to right, #233d80 0%,#45a28c 100%);
+.calendar {
+    width: 8%;
+
 }
 
-.jazz-button {
-    background: linear-gradient(to right, #233d80 0%,#d74061 70%,#d74061 100%);
+.clock{
+     width: 8%;
 }
 
-.alternative-button {
-    background: linear-gradient(to right, #233d80 0%,#6d5b97 70%,#6d5b97 100%);
-}
 
-.rock-button {
-    background: linear-gradient(to right, #233d80 0%,#548dd4 70%,#548dd4 100%);
-}
+  /*.date{
+    position: absolute;
 
-.folk-button {
-    background: linear-gradient(to right, #233d80 0%,#45a28c 100%);
-}
 
-main ul li a {
-    color: #FFF;
-    width: 100%;
-}
 
-main ul {
-    list-style: none;
-    margin: 20px 0;
-    padding: 0;
-}
+} */
 
-.localnav-icons {
-    width: 80%;
-    margin-left: 1em;
-}
 
-.localnav li {
-    margin-bottom: 1px;
-}
-
-.sageata {
-    width: .8em;
-}
-
-.genre-nav {
-    padding: .8em;
-    padding-left: 1.2em;
-    font-size: 18px;
-}
-
-.genre-nav a img {
-    float: right;
-    margin-right: 1em;
-}
-
-.genre-nav a {
-    padding-right: 164px;
-}
-
-h2.title {
-    font-size: 20px;
-    margin: 7em 1em 0;
-    font-weight: 500;
-}
 
 
