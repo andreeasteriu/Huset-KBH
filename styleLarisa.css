@@ -213,6 +213,7 @@ main ul {
     margin-top: 100px;
     text-align: center;
     font-family: "Avenir", sans-serif;
+    color: #273E87;
 
 
 }
@@ -221,7 +222,7 @@ main ul {
     position: relative;
     width: 100%;
     height: 150px;
-    overflow: dden;
+    overflow: hidden;
 }
 .movie h2{
     position: absolute;
@@ -230,6 +231,8 @@ main ul {
     font-family: "avenir", sans-serif;
     font-size: 25px;
     z-index: 9;
+     font-weight: 900;
+
 }
 .theater h2{
     position: absolute;
@@ -238,7 +241,22 @@ main ul {
     font-family: "avenir", sans-serif;
     font-size: 25px;
     z-index: 9;
+    font-weight: bold;
 }
+.oneline, .oneline2{
+    width: 35%;
+    margin: auto;
+     margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: #273E87;
+    color: #273E87;
+
+}
+.oneline2{
+   width: 60%;
+
+}
+
 .box h2{
     width: 90%;
 }
@@ -254,7 +272,7 @@ main ul {
     width: 100%;
 }
 .gradient{
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(37,67,124,0.3);
      width: 100%;
     height: 151px;
     position: absolute;
@@ -268,14 +286,16 @@ main ul {
     margin-left: 25px;
     font-size: 17px;
 
+
 }
 
 .date_time{
     position: absolute;
+    bottom: 10px;
     display: flex;
     color: white;
     z-index:9;
-    margin-top:32%;
+
 
 
 }
@@ -297,76 +317,186 @@ main ul {
     margin-top: 3%;
 }
 .underfooter{
-    height: 40px;
+    height: 50px;
 }
-footer{
+.secondfooter{
     position: fixed;
     width: 100%;
-    height: 40px;
+    height: 50px;
     z-index: 100;
+    padding: 0;
+    background:linear-gradient(to right, rgba(34,63,124), rgba(83,141,214));
 }
+
 .social{
     display: grid;
+    width:100%;
     grid-template-columns: repeat(3, 1fr);
 
 }
+.social a{
+    margin: auto;
+}
 .icons{
-       width: 7%;
+       width: 9%;
    position: fixed;
     bottom: .5em;
     margin: auto;
+    margin-left: -10px;
 
 }
-.backbutton{
+.backbutton, .backbutton2{
     margin-top: 30%;
-    width: 30px;
+    width: 35px;
     border: none;
     color: transparent;
     background-color: white;
+    z-index: 3;
+
 }
-
-
-
-
-
-
-
+.backbutton2{
+    background: none;
+    margin-top:28%;
+}
 
 
 
 /*chat part*/
 
 .chatbox{
+    margin: auto;
     margin-top: 40%;
     align-content: center;
 
 }
-.chatbox button{
+.chatbox a{
     margin: auto;
-    width: 100%;
+    width: 80%;
     height: 70px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 25px;
     font-size: 20px;
     color: white;
-    background-color: grey;
+     background:linear-gradient(to right, rgba(34,63,124), rgba(83,141,214));
+
+}
+
+.chatimg{
+    position: absolute;
+margin-top: 100px;
 }
 
 
 
 
 
+/*individual event */
+
+.name{
+font-weight: 900;
+margin-left: 20px;}
+
+#singleEvent h2{
+    color:#273E87;
+    font-size: 23px;
+}
+
+.subimg{
+    width: 100%;
+
+}
+.price{
+    position: absolute;
+    color: white;
+    right:0;
+    background-color: #273E87;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+
+}
+
+.description{
+    width: 92%;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.location{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+.loc{
+    margin-left: 30px;
+}
+.containerLocation{
+    margin-left: 20px;
+}
+
+.availability{
+ margin-right:25px;
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+}
+.imgAvailability{
+    width: 20px;
+    margin-bottom: -5px;
+
+}
+.hr2{
+    margin: auto;
+    width: 90%;
+    border-top: 2px solid #273E87;
+
+}
+.buyButton{
+      background:linear-gradient(to right,rgba(83,141,214), rgba(34,63,124));
+    width: 250px;
+
+    border-radius: 22px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+}
 
 
+body{
+    font-family: "avenir", sans-serif;
+}
 
 
+/*Buy page*/
+.buyit{
+  width: 80%;
+    margin: auto;
+}
+.buyit input{
+    width: 300px;
+   border-radius: 20px
+}
+.buyit p{
+    text-align: center;
+    color: #273E87;
 
 
-
-
-
-
-
-
+}
+.lastprice{
+    text-align: center;
+}
+.priceagain{
+    text-align: center;
+}
 
 
