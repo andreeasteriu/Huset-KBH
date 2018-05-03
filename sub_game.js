@@ -13,5 +13,7 @@ function showSingleGame(gameP){
 
  document.querySelector("#singleGame").textContent = gameP.title.rendered;
 
-document.querySelector("#desc").innerHTML = gameP.content.rendered;
+document.querySelector(".imagSub").src = gameP.acf.image.sizes.medium;
+
+document.querySelector(".desc").innerHTML = gameP.content.rendered;
        }

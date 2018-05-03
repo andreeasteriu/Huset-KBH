@@ -20,7 +20,7 @@ function showSingleGame(aGame){
     clone.querySelector(".pic").src = aGame.acf.image.sizes.medium;
     /* subpagini*/
 
-    clone.querySelector(".readmore").href="subpage_boardgame.html?id=" + aGame.id;
+    clone.querySelector(".readmore").href="subpage.html?id=" + aGame.id;
 
     /* DE Terminat Ziua Si ORA */
 
