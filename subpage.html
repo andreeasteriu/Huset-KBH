@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="styleLarisa.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+</head>
+
+<body>
+    <header> <img src="assets/huset-logo.png" alt="Huset logo" class="huset-logo">
+        <div class="search-bar"><img src="assets/search-icon.png" alt="" class="search-icon"><input type="text" placeholder="Search Events"></div>
+        <span onclick="openNav()" class="burger-menu">&#9776;</span>
+        <nav id="mainnav" class="main-nav">
+            <div class="x-group"><a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <img class="profile" src="assets/profile.png" alt="profile-picture" />
+                <ul>
+                    <li><a href="index.html"><b>Events</b></a></li>
+                    <li class="subli"><a href="#">Music</a></li>
+                    <li class="subli"><a href="index_movie.html">Movie & Theatre</a></li>
+                    <li class="subli"><a href="#">Board Games</a></li>
+                    <li><a href="https://huset-kbh.dk/volunteering/?lang=en"><b>Volunteering</b></a></li>
+                    <li><a href="https://huset-kbh.dk/udlejning-en/?lang=en"><b>Leasing</b></a>
+                        <li><a href="#"><b>Contact</b></a></li>
+                </ul>
+                <img src="assets/friends-group.png" alt="friends-list" class="friends-list">
+            </div>
+        </nav>
+    </header>
+    <button class="backbutton" onclick="goBack()"><img class="backbutton" src="images/arrow_left-512.png"></button>
+
+
+
+
+
+
+
+      <section id="singleEvent">
+      <div class="name">
+        <h2>Name of the event</h2>
+
+          </div>
+<div>
+    <h4 class="price">Price</h4>
+<img class="subimg" src="" alt="image of the event">
+    </div>
+
+<p  class="description">Description</p>
+          <hr class="hr2">
+          <h4 class="availability">Availability <img  class="imgAvailability" src="images/yes.png"></h4>
+
+      <div class="containerLocation">
+          <img class="location" src="images/15-512.png" alt="icon of location">
+          <h4 class="loc"> Location</h4>
+          </div>
+<hr class="hr2">
+    </section>
+
+
+<a href="buy.html?id=86" class="buyButton">Buy a ticket</a>
+
+
+<div class="underfooter"></div>
+    <footer class="secondfooter">
+        <div class="social">
+
+            <a href="index_movie.html"><img src="images/movie-projector.png" alt="Movie icon" class="icons" /></a>
+            <a href="theater.html">
+                <img src="images/theatre-mask.png" alt="Theter icon" class="icons" /></a>
+
+            <a href="chat.html">
+                <img src="images/chat.png" alt="chat icon" class="icons" /></a>
+
+
+
+        </div>
+
+    </footer>
+    <script src="subpageScript.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
