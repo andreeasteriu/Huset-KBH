@@ -139,7 +139,7 @@ header {
   height:100px;
   background:white;
   position:fixed;
-    background-color: lightgrey;
+    background-color: lightgray;
     z-index: 1;
 }
 
@@ -159,6 +159,8 @@ footer {
     grid-template-columns: repeat(4, 1fr);
 
 }
+
+/*gradient navigation*/
 
 .prof {
     width: 25px;
@@ -182,7 +184,7 @@ footer {
     stroke-width:5px;
 }
 .active {
-    filter: drop-shadow( 2px 2px 6px white );
+    filter: drop-shadow( 2px 3px 7px white );
 }
 .active .cls-1{
 
@@ -211,19 +213,29 @@ a {
 /* LIST OF EVENTS*/
 
 .firstpost{
-    margin-top: 150px;
+    margin-top: 30vw;
+    margin-bottom: 15vw;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000000;
+    text-transform: uppercase;
+    color: white;
+
 }
 
-.bordgame{
-    border : 1px solid #000;
+article{
+    background: linear-gradient(to right, rgba(42,79,130,1), rgba(255,0,0,0));
     position: relative;
+    height: 50vw;
+    color: #ffffff;
+    bottom: 12vw;
+
 }
 
-/*.bordgame .color{
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
-} */
+article.bordgame:last-child{
+   margin-bottom: .8em;
+}
 
 .pic{
     width: 100vw;
@@ -232,6 +244,18 @@ a {
     top: 0;
     left: 0;
     z-index: -1;
+
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 10vw;
+    text-shadow: 0px 0px 3px #000000;
+    background: linear-gradient(to right, rgba(42,79,130,1), rgba(4,0,0,0.5));
+
 }
 .descript{
     width: 100vw;
@@ -239,21 +263,144 @@ a {
 
 .calendar {
     width: 8%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-right: 10px;
+
 
 }
 
 .clock{
      width: 8%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-right: 15px;
 }
 
 
-  /*.date{
-    position: absolute;
+.readmore{
+    margin: 0px;
+   position: absolute;
+    bottom: 2.5em;
+    right: 1.5em;
+}
+.readmore img {
+    width: 35px;
+
+    }
+
+.date {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.time {
+    padding-left: 10px;
+}
+ /* list of best games */
+
+.TitleGame {
+            margin-top: 40vw;
+            margin-bottom: 20vw;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 0px 0px 3px #000000;
+            color: white;
+        }
+
+       .bestgame {
+            background: linear-gradient(to right, rgba(42, 79, 130, 1), rgba(255, 0, 0, 0));
+            position: relative;
+            height: 50vw;
+            color: #ffffff;
+            bottom: 12vw;
+        }
+
+       .bestGameTitle {
+            margin-top: 0px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 2px;
+            margin-bottom: 10vw;
+            text-shadow: 0px 0px 3px #000000;
+
+        }
+
+        .picBGame {
+            width: 100vw;
+            height: 50vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+.location{
+
+    margin-top: 20px;
+    width: 1ovw;
+    font-size: 16px;
+}
+.genre{
+padding-top: 10px;
+    font-size: 16px;
+}
+
+/* food*/
 
 
+ .firstfood {
+            margin-top: 30vw;
+            margin-bottom: 15vw;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 0px 0px 3px #000000;
+            text-transform: uppercase;
+            color: white;
+        }
 
-} */
+        .foodArticle {
 
+            position: relative;
+            background: linear-gradient(to right, rgba(42, 79, 130, 1), rgba(255, 0, 0, 0));
+            height: 50vw;
+            color: #ffffff;
+            bottom: 12vw;
+        }
+
+        .foodimg {
+            width: 100vw;
+            height: 50vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+.food{
+
+}
+
+/* subpage*/
+
+#desc{
+
+   margin-bottom: 20vw;
+}
+
+#singleGame{
+    color: white;
+    text-transform: uppercase;
+     background: linear-gradient(to right, rgba(42,79,130,1), rgba(255,0,0,0));
+}
+
+.imagSub{
+
+
+}
 
 
 
