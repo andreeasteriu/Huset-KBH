@@ -3,83 +3,102 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Movies</title>
-
-    <link rel="stylesheet" href="styleLarisa.css">
+    <title>Huset KBH</title>
+    <link rel="stylesheet" href="bordgames.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <style>
+    .arImg{
+    margin: 0px;
+   position: absolute;
+    top: 8.6em;
+    left: -.4em;
+    z-index: 1;
+
+}
+        #singleGame{
+            background: linear-gradient(to right, rgba(42, 79, 130, 1), rgba(255, 0, 0, 0));
+
+        }
+    </style>
 </head>
 
+
+<header> <img src="assets/huset-logo.png" alt="Huset logo" class="huset-logo">
+    <div class="search-bar"><img src="assets/search-icon.png" alt="" class="search-icon"><input type="text" placeholder="Search Events"></div>
+    <span onclick="openNav()" class="burger-menu">&#9776;</span>
+    <nav id="mainnav" class="main-nav">
+        <div class="x-group"><a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <img class="profile" src="assets/profile.png" alt="profile-picture" />
+            <ul>
+                <li><a href="index.html"><b>Events</b></a></li>
+                <li class="subli"><a href="genre.html">Music</a></li>
+                <li class="subli"><a href="#">Cinema & Theatre</a></li>
+                <li class="subli"><a href="bordgames.html">Board Games</a></li>
+                <li><a href="https://huset-kbh.dk/volunteering/?lang=en"><b>Volunteering</b></a></li>
+                <li><a href="https://huset-kbh.dk/udlejning-en/?lang=en"><b>Leasing</b></a>
+                    <li><a href="#"><b>Contact</b></a></li>
+            </ul>
+            <img src="assets/friends-group.png" alt="friends-list" class="friends-list">
+        </div>
+    </nav>
+</header>
+
 <body>
-    <header> <img src="assets/huset-logo.png" alt="Huset logo" class="huset-logo">
-        <div class="search-bar"><img src="assets/search-icon.png" alt="" class="search-icon"><input type="text" placeholder="Search Events"></div>
-        <span onclick="openNav()" class="burger-menu">&#9776;</span>
-        <nav id="mainnav" class="main-nav">
-            <div class="x-group"><a href="#" class="closebtn" onclick="closeNav()">&times;</a>
 
-                <img class="profile" src="assets/profile.png" alt="profile-picture" />
-                <ul>
-                    <li><a href="index.html"><b>Events</b></a></li>
-                    <li class="subli"><a href="#">Music</a></li>
-                    <li class="subli"><a href="index_movie.html">Movie & Theatre</a></li>
-                    <li class="subli"><a href="#">Board Games</a></li>
-                    <li><a href="https://huset-kbh.dk/volunteering/?lang=en"><b>Volunteering</b></a></li>
-                    <li><a href="https://huset-kbh.dk/udlejning-en/?lang=en"><b>Leasing</b></a>
-                        <li><a href="#"><b>Contact</b></a></li>
-                </ul>
-                <img src="assets/friends-group.png" alt="friends-list" class="friends-list">
+    <div class="continer">
+        <h4 class="firstpost">Bordgames event</h4>
+
+        <section id="singleGame">
+            <div>
+                <h1 id="postName">Post Name</h1>
+
             </div>
-        </nav>
-    </header>
-    <button class="backbutton" onclick="goBack()"><img class="backbutton" src="images/arrow_left-512.png"></button>
+        </section>
+        <section id="desc">
+           <img class="imagSub" src="" alt="">
+            <h3 class="desc">Description</h3>
+
+        </section>
+
+        <a class="backB" href="bordgames.html"><img class="arImg" src="assets/arr1.png"></a>
+
+    </div>
+</body>
 
 
 
+<footer>
+    <div class="down">
 
-      <section id="singleEvent">
-      <div class="name">
-        <h2>Name of the event</h2>
+        <a href="#"><img src="assets/little-men.png" class="prof" /></a>
 
-          </div>
-<div>
-    <h4 class="price">Price</h4>
-<img class="subimg" src="" alt="image of the event">
+        <a href="bordgames.html">
+            <svg class="games_events active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.71 138.09"><defs></defs><title>Asset 4</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_3" data-name="Layer 3"><polygon class="cls-1" points="2.5 55.94 2.5 112.51 49.26 135.3 95.62 112.12 95.62 55.94 49.06 79.51 2.5 55.94"/><path class="cls-1" d="M49.06,131.77c-.2-3.54,0-52.26,0-52.26"/><path class="cls-1" d="M6.43,54C10,52.4,49.06,32.36,49.06,32.36L95.62,55.94"/><ellipse class="cls-1" cx="14.38" cy="75.72" rx="6.09" ry="7.22" transform="translate(-35.93 17.33) rotate(-30)"/><ellipse class="cls-1" cx="34.34" cy="104.58" rx="5.99" ry="8.02" transform="translate(-53.44 38.16) rotate(-34.71)"/><ellipse class="cls-1" cx="13.67" cy="104.58" rx="5.24" ry="7.42" transform="translate(-57.12 26.39) rotate(-34.71)"/><ellipse class="cls-1" cx="75.19" cy="109.05" rx="7.53" ry="4.89" transform="translate(-53.22 141.56) rotate(-69.62)"/><ellipse class="cls-1" cx="65.36" cy="87.15" rx="7.74" ry="6.18" transform="matrix(0.41, -0.91, 0.91, 0.41, -40.97, 110.83)"/><ellipse class="cls-1" cx="86.21" cy="75.72" rx="7.59" ry="5.3" transform="translate(-24.94 104.17) rotate(-55.65)"/><ellipse class="cls-1" cx="49.59" cy="57.14" rx="8" ry="5.53"/><polyline class="cls-1" points="44.15 27.25 57.59 2.5 112.51 2.5 135.69 49.65 99.55 49.65"/><path class="cls-1" d="M75.19,36.68S63.72,12.75,60.65,7.61"/><path class="cls-1" d="M135.7,49.65c-1.57,4.71-22,47-22,47H105"/><ellipse class="cls-1" cx="81.86" cy="22.15" rx="6.32" ry="7.88" transform="translate(-1.08 39.84) rotate(-27.18)"/><ellipse class="cls-1" cx="112.86" cy="37.54" rx="5.3" ry="6.88" transform="translate(38.37 130.26) rotate(-69.62)"/><ellipse class="cls-1" cx="118" cy="60.76" rx="7.61" ry="5.6" transform="matrix(0.78, -0.63, 0.63, 0.78, -11.88, 88.09)"/></g></g></svg></a>
+
+        <a href="food.html">
+            <img src="assets/foodes.png" class="food" /></a>
+
+        <a href="bestgames.html">
+            <img src="assets/game_best.png" alt="listgames" class="listgames" />
+        </a>
+
     </div>
 
-<p  class="description">Description</p>
-          <hr class="hr2">
-          <h4 class="availability">Availability <img  class="imgAvailability" src="images/yes.png"></h4>
-
-      <div class="containerLocation">
-          <img class="location" src="images/15-512.png" alt="icon of location">
-          <h4 class="loc"> Location</h4>
-          </div>
-<hr class="hr2">
-    </section>
+</footer>
 
 
-<a href="buy.html?id=86" class="buyButton">Buy a ticket</a>
+<script src="sub_game.js"></script>
+
+<script src="script.js"></script>
 
 
-<div class="underfooter"></div>
-    <footer class="secondfooter">
-        <div class="social">
-
-            <a href="index_movie.html"><img src="images/movie-projector.png" alt="Movie icon" class="icons" /></a>
-            <a href="theater.html">
-                <img src="images/theatre-mask.png" alt="Theter icon" class="icons" /></a>
-
-            <a href="chat.html">
-                <img src="images/chat.png" alt="chat icon" class="icons" /></a>
-
-
-
-        </div>
-
-    </footer>
-    <script src="subpageScript.js"></script>
-    <script src="script.js"></script>
-
-</body>
 
 </html>
