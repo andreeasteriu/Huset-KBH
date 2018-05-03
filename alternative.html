@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Huset, Copenhagen, events, music, enjoy, beer, café, activity, activities, live, friends, volunteer, jazz, folk, dance, musical, genre, play, live music, pop, party, bands, live bands, laugh, good time, ideal place, horror movies, Rådhusstræde 13, Huset-KBH">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 </head>
@@ -31,15 +33,39 @@
     </header>
  <main onclick="closeNav()">
 
- <h2 class="title">GENRE</h2>
 
-<ul class="localnav">
 
-      <li class="jazz-button genre-nav"><a href="jazz.html" id="jazz">Jazz<img src="assets/sageata.png" alt="sign" class="sageata"></a></li>
-      <li class="alternative-button genre-nav"><a href="alternative.html" id="alternative">Alternative <img src="assets/sageata.png" alt="sign" class="sageata"></a></li>
-    <li class="rock-button genre-nav"><a href="rock.html" id="rock">Rock<img src="assets/sageata.png" alt="sign" class="sageata"></a></li>
-    <li class="folk-button genre-nav"><a href="folk.html" id="folk">Folk<img src="assets/sageata.png" alt="sign" class="sageata"></a></li>
-   </ul>
+<div class="title">
+
+</div>
+
+
+<section id="eventsList">
+    <template id="template">
+    <article class="music-post">
+       <div class="event">
+
+           <a>
+
+           <h2><span class="name-event">Name of the event</span><img src="assets/sageata.png" class="read-more" alt="Read more"/></h2>
+
+       <h4 class="date"><img src="images/Calendar-Date-04.png" alt="Date">
+       <span class="day"></span><span class="month"></span><span class="year"></span></h4>
+
+     <h4 class="time"><img src="images/Clock-02.png" alt="Time" class="clock-time"/><span class="clock"></span> <img src="assets/attend.png" class="attend"></h4>
+
+
+
+
+       <img class="img-post" src="" alt="">
+     </a>
+</div>
+    </article>
+
+ </template>
+
+    </section>
+
 
 
 
@@ -69,7 +95,7 @@
 
    </footer>
 
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
+    <script src="alternative.js"></script>
      </body>
 </html>
