@@ -10,7 +10,8 @@
 h1  {
     margin: 0;
     color: #000;
-    font-weight: 500;
+    font-weight:400;
+    font-size: 30px;
 }
 .music-post{
     position: relative;
@@ -18,29 +19,17 @@ h1  {
 }
 
 .event{
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     width: 100%;
-    height: 200px;
+    height: 210px;
 
 }
 
 .img-post{
     width: 100%;
-    height: 200px;
-    overflow: hidden;
-
+    height: 210px;
 }
 
-.event h2{
-    position: absolute;
-    bottom: 2em;
-    color: #FFF;
-    padding-left: .5em;
-    margin: 0;
-    font-weight: 500;
-    font-size: 20px;
-
-}
 
 
 .date {
@@ -49,35 +38,76 @@ h1  {
     left: 1em;
     color: #FFF;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .date img {
-    width: 5%;
-    margin-right: 3px;
+    width: 18px;
+    margin-right: 5px;
+    float: left;
 }
 
 .time {
-     position: absolute;
-    bottom: 0;
-    left: 9em;
+    position: absolute;
+    bottom: -5px;
+    left: 9.2em;
     color: #FFF;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
 }
-.time img {
-    width: 5%;
+
+.clock-time {
+    width: 19px;
     margin-right: 5px;
+    float: left;
 }
+
+
 
 .read-more {
-    width: 8%;
-    position: absolute;
-    right: 10em;
-    bottom: 1em;
+    width: 18px;
+    margin-left: 10px;
+    float: right;
+    bottom: 0;
 }
 
-.event-title {
+
+.event h2{
     position: absolute;
-    bottom: 1em;
+    bottom: 2.5em;
+    color: #FFF;
+    padding-left: .5em;
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+
+.attend {
+    width: 61px;
+    float: right;
+    margin-left: 1em;
+    display: block;
+
+
+}
+
+.music-post:last-child {
+    margin-bottom: 3em;
+}
+
+.continer {
+    margin-top: 6em;
+}
+
+#postName {
+    position: absolute;
+    top: em;
+    color: #FFF;
+    padding-left: .5em;
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+
 }
