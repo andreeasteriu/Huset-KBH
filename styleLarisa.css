@@ -142,7 +142,7 @@ input[type=text] {
   height:92px;
   background:white;
   position:fixed;
-    z-index: 1;
+    z-index: 10;
     background-color: lightgrey;
 
 }
@@ -379,11 +379,11 @@ main ul {
     align-content: center;
 
 }
-.chatbox a{
+.chatbox button{
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: 70px;
-    margin-top: 30px;
+    margin-top: 0px;
     border-radius: 25px;
     font-size: 20px;
     color: white;
@@ -391,10 +391,7 @@ main ul {
 
 }
 
-.chatimg{
-    position: absolute;
-margin-top: 100px;
-}
+
 
 
 
@@ -425,6 +422,7 @@ margin-left: 20px;}
     width: 80px;
     height: 23px;
     text-align: center;
+    z-index: 1;
 
 }
 
