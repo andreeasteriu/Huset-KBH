@@ -20,9 +20,9 @@
                 <img class="profile" src="assets/profile.png" alt="profile-picture" />
                 <ul>
                     <li><a href="index.html"><b>Events</b></a></li>
-                    <li class="subli"><a href="#">Music</a></li>
+                    <li class="subli"><a href="genre.html">Music</a></li>
                     <li class="subli"><a href="index_movie.html">Movie & Theate</a></li>
-                    <li crlass="subli"><a href="#">Board Games</a></li>
+                    <li crlass="subli"><a href="bestgames.html">Board Games</a></li>
                     <li><a href="https://huset-kbh.dk/volunteering/?lang=en"><b>Volunteering</b></a></li>
                     <li><a href="https://huset-kbh.dk/udlejning-en/?lang=en"><b>Leasing</b></a>
                         <li><a href="#"><b>Contact</b></a></li>
@@ -31,12 +31,13 @@
             </div>
         </nav>
     </header>
+     <button class="backbutton" onclick="goBack()"><img class="backbutton" src="images/arrow_left-512.png"></button>
 <div class="chatbox">
-    <a>Join public groups </a>
+    <button>Join public groups </button>
     <br><br>
-    <a>Create a public group </a>
+    <button>Create a public group </button>
 <br><br>
-    <a>Create a privat group </a>
+    <button>Create a privat group </button>
 
 
     </div>
@@ -65,7 +66,9 @@
     </footer>
 
 
-
+<script>function goBack() {
+    window.history.back();
+}</script>
     <script src="script.js"></script>
 
 </body>
