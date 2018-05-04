@@ -21,4 +21,6 @@ document.querySelector(".img-post").src = anEvent.acf.image.sizes.medium;
   document.querySelector(".month").textContent = anEvent.acf.date.substring(2,4) + "/";
  document.querySelector(".year").textContent = anEvent.acf.date.substring(4,8);
  document.querySelector(".clock").textContent = anEvent.acf.time;
+ document.querySelector(".location").textContent = anEvent.acf.location;
+    document.querySelector(".price").textContent = anEvent.acf.price+ " DKK";
 }

@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+
+.backbtn {
+    position: fixed;
+    top: 58px;
+    left: 11px;
+    width: 14px;
+    background: none;
+    box-shadow: none;
+    z-index: 1;
+
+}
 body {
     margin: 0;
     display: grid;
@@ -202,7 +213,7 @@ footer {
     width: 30px;
     bottom: 0.6em;
     position: fixed;
-    margin-left: 300px;
+    margin-left: 87vw;
 }
 
 
@@ -214,7 +225,7 @@ a {
 
 .firstpost{
     margin-top: 30vw;
-    margin-bottom: 15vw;
+    margin-bottom: 1.5em;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -353,7 +364,7 @@ padding-top: 10px;
 
  .firstfood {
             margin-top: 30vw;
-            margin-bottom: 15vw;
+            margin-bottom: 1.5em;
             text-align: center;
             font-size: 30px;
             font-weight: bold;
@@ -399,8 +410,10 @@ padding-top: 10px;
 
 .imagSub{
 
-
+width: 100%;
 }
 
-
+h4 {
+    padding-top: .4em;
+}
 
