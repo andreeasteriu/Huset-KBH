@@ -31,7 +31,7 @@ function closeNav() {
 
 function changeImg() {
     console.log(changeImg);
-    document.querySelector(".attend").src="assets/heart-full.png"
+    document.querySelector(".attending").src="assets/heart-full.png"
 }
 
 document.querySelector('.read').addEventListener('click', function() {
