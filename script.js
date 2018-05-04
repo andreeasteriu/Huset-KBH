@@ -34,7 +34,7 @@ function changeImg() {
     document.querySelector(".attend").src="assets/heart-full.png"
 }
 
-document.querySelector('button').addEventListener('click', function() {
+document.querySelector('.read').addEventListener('click', function() {
   document.querySelector('.desc').style.height= 'auto';
   this.style.display= 'none';
 });
