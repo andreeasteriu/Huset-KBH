@@ -12,7 +12,7 @@ function showEvents(anEvent){
     console.log(anEvent);
     let template = document.querySelector("#template").content;
     let clone = template.cloneNode(true);
-
+ clone.querySelector(".more").href="subpage_music.html?id=" + anEvent.id;
  clone.querySelector(".name-event").textContent = anEvent.title.rendered;
  clone.querySelector(".day").textContent = anEvent.acf.date.substring(0,2) + "/";
   clone.querySelector(".month").textContent = anEvent.acf.date.substring(2,4) + "/";

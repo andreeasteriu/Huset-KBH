@@ -28,3 +28,17 @@ function closeNav() {
     mainnav.classList.add('close');
 
 }
+
+function changeImg() {
+    console.log(changeImg);
+    document.querySelector(".attend").src="assets/heart-full.png"
+}
+
+document.querySelector('button').addEventListener('click', function() {
+  document.querySelector('.desc').style.height= 'auto';
+  this.style.display= 'none';
+});
+
+function back() {
+    window.history.back();
+}

@@ -26,8 +26,8 @@ console.log(aPost)
 
 }
 
-
-
 function goBack() {
     window.history.back();
 }
+
+

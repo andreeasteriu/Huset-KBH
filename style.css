@@ -253,4 +253,13 @@ h2.title {
     font-weight: 500;
 }
 
+.backbtn {
+    position: fixed;
+    top: 58px;
+    left: 11px;
+    width: 14px;
+    background: none;
+    box-shadow: none;
+    z-index: 1;
 
+}

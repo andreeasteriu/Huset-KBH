@@ -12,7 +12,8 @@
 </head>
 
 <body>
-   <header> <img src="assets/huset-logo.png" alt="Huset logo" class="huset-logo">
+   <header>
+    <button class="backbtn" onclick="back()"><img class="backbtn" src="assets/back.png"></button><img src="assets/huset-logo.png" alt="Huset logo" class="huset-logo">
      <div class="search-bar"><img src="assets/search-icon.png" alt="" class="search-icon"><input type="text" placeholder="Search Events"></div>
       <span onclick="openNav()" class="burger-menu">&#9776;</span>
         <nav id="mainnav" class="main-nav"> <div class="x-group"><a href="#" class="closebtn" onclick="closeNav()">&times;</a>
@@ -21,11 +22,13 @@
             <ul>
                 <li><a href="index.html"><b>Events</b></a></li>
                 <li class="subli"><a href="genre.html">Music</a></li>
-                <li class="subli"><a href="#">Cinema & Theatre</a></li>
-                <li class="subli"><a href="#">Board Games</a></li>
+
+                <li class="subli"><a href="index_movie.html">Movies & Theater</a></li>
+                <li class="subli"><a href="bordgames.html">Board Games</a></li>
+
                 <li><a href="https://huset-kbh.dk/volunteering/?lang=en"><b>Volunteering</b></a></li>
                 <li><a href="https://huset-kbh.dk/udlejning-en/?lang=en"><b>Leasing</b></a>
-                <li><a href="#"><b>Contact</b></a></li>
+                <li><a href="https://huset-kbh.dk/contact/?lang=en"><b>Contact</b></a></li>
             </ul>
             <img src="assets/friends-group.png" alt="friends-list" class="friends-list">
             </div>
@@ -40,23 +43,32 @@
         <section id="singleMusic">
 
 
-
+<span class="up">
             <div class="subpage-content">
-           <h4 class="date"><img src="images/Calendar-Date-04.png" alt="Date">
+            <img src="assets/heart.png" class="attend" onclick="changeImg()">
+           <h4 class="date-sub"><img src="images/Calendar-Date-04.png" alt="Date">
 
        <span class="day"></span><span class="month"></span><span class="year"></span></h4>
 
-     <h4 class="time"><img src="images/Clock-02.png" alt="Time" class="clock-time"/><span class="clock"></span> <img src="assets/attend.png" class="attend"></h4>
+     <h4 class="time-sub"><img src="images/Clock-02.png" alt="Time" class="clock-time"/><span class="clock"></span>
+
+           <div class="loc">
+           <img class="location-icon" src="assets/loc-icon.png" alt="icon of location"> <span class="location"></span></div></h4>
             </div>
+            </span>
             <div>
                 <h1 id="postName">Post Name</h1>
 <img class="img-post" src="">
                 </div>
 
             </section>
-            <section id="desc">
-                <h3 class="desc">Description</h3>
 
+            <img src="assets/group.png" alt="people attend" class="group">
+            <p class="nr">210 people attending</p>
+            <section id="desc">
+                <div class="btn"><h3 class="desc">Description</h3>
+                <button class="read">Read-more</button></div>
+                <h3 class="fee">Entrance fee: <span class="price"></span></h3>
             </section>
 
 
@@ -86,5 +98,6 @@
 
     <script src="script.js"></script>
     <script src="subpage_music.js"></script>
+
      </body>
 </html>
